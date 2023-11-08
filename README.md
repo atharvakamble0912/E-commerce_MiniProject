@@ -47,30 +47,20 @@ Welcome to our E-Commerce Fashion Store mini project! This project showcases a s
 
 3. **Database Setup:**
    - Create a MySQL database and import the provided SQL schema file.
+   - 
 
-4. **Environment Variables:**
-   - Create a `.env` file in the `backend` directory and configure your MySQL database credentials:
-     ```
-     DB_HOST=localhost
-     DB_USER=your_username
-     DB_PASSWORD=your_password
-     DB_DATABASE=your_database_name
-     ```
-
-5. **Start the Application:**
+4. **Start the Application:**
    - In the `frontend` directory, run `npm start` to start the React development server.
    - In the `backend` directory, run `npm start` to start the Express server.
 
-6. **Access the Application:**
+5. **Access the Application:**
    - Open your browser and visit `http://localhost:3000` to access the E-Commerce Fashion Store.
 
 ## Contributors
 
-- John Doe ([@johndoe](https://github.com/johndoe))
-- Jane Smith ([@janesmith](https://github.com/janesmith))
+- Atharva Kamble ([@atharvakamble0912](https://github.com/atharvakamble0912))
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Happy Shopping! 🛍️
