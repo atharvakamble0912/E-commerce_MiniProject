@@ -1,0 +1,20 @@
+@import url('https://fonts.google.com/specimen/Urbanist');
+
+* {
+    font-family: 'Urbanist';
+}
+
+.addproductform {
+    margin: 20px;
+}
+
+#prod-btn {
+    margin-top: 15px;
+    background-color: #00A1D9;
+    padding: 5px
+}
+
+#input-field1,
+#input-field2 {
+    width: 50%;
+}

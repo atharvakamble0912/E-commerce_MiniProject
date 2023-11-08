@@ -1,0 +1,103 @@
+.product-details h1 {
+    font-size: 42px;
+}
+
+.product-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+    /* margin-left: 100px; */
+    margin: 70px 140px 100px 140px;
+}
+
+.product-image img {
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+
+.product-details {
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.product-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-description-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product-colors {
+    margin-bottom: 20px;
+}
+
+.product-colors h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-colors ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-colors li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-rating {
+    margin-bottom: 20px;
+}
+
+.product-rating h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+.product-price {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.product-actions {
+    display: flex;
+}
+
+.add-to-cart-btn,
+.favorite-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.favorite-btn {
+    background-color: #ff4081;
+    color: #fff;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+    .product-description {
+        flex-direction: column;
+    }
+
+    .product-image {
+        margin-bottom: 20px;
+    }
+
+    .product-details {
+        margin-left: 0;
+    }
+}

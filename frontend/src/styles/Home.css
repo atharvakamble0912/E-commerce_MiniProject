@@ -1,0 +1,36 @@
+@import url('https://fonts.google.com/specimen/Urbanist');
+
+* {
+    font-family: 'Urbanist';
+}
+
+img {
+    object-fit: contain;
+    margin: 0;
+}
+
+#banner-btn {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    background-color: #00A1D9;
+    color: black;
+    font-size: 16px;
+    padding: 9px 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-count {
+    right: 10%;
+    background-color: #00A1D9;
+    padding: 2px;
+    border-radius: 30%;
+}
+
+.cart {
+    padding: 5px;
+}
